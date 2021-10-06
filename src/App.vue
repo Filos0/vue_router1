@@ -16,13 +16,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="nav navbar-nav ml-auto" id="menu-v8">
             <li class="nav-item" role="presentation">
-              <router-link :to="{name: 'Portada'}">Portada</router-link>
+              <router-link :to="{name: 'Inicio'}">Inicio</router-link>
             </li>
             <li class="nav-item" role="presentation">
-              <router-link :to="{name: 'SobreMi'}">Sobre Mi</router-link>
+              <router-link :to="{name: 'LazySobreMi'}">Sobre Mi</router-link>
             </li>
             <li class="nav-item" role="presentation">
-              <router-link :to="{name: 'Contacto'}">Contacto</router-link>
+              <router-link to="/contacto">Contacto</router-link>
             </li>
             <li class="nav-item" role="presentation">
               <router-link to="/post/1">Último Post</router-link>
